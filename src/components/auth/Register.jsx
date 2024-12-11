@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { toast } from 'sonner';
 
 const Register = () => {
@@ -93,7 +93,7 @@ const Register = () => {
         </form>
         <p className="mt-4 text-center">
           Already have an account? 
-          <a href="/login" className="text-blue-500 ml-1">Login</a>
+          <Link to="/login" className="text-blue-500 ml-1">Login</Link>
         </p>
       </div>
     </div>
