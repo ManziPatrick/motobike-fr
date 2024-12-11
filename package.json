@@ -1,0 +1,49 @@
+{
+  "name": "mybrand_react",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.1.9",
+    "@radix-ui/react-slot": "^1.1.0",
+    "axios": "^1.7.9",
+    "buffer": "^6.0.3",
+    "chart.js": "^3.7.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "draft-js": "^0.11.7",
+    "draftjs-to-html": "^0.9.1",
+    "process": "^0.11.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-draft-wysiwyg": "^1.15.0",
+    "react-router-dom": "^6.28.0",
+    "react-scroll": "^1.9.0",
+    "react-toastify": "^10.0.5",
+    "react-transition-group": "^4.4.5",
+    "sonner": "^1.7.1",
+    "tailwind-merge": "^2.5.5",
+    "trix": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16",
+    "vite": "^5.2.0"
+  }
+}
