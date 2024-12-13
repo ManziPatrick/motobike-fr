@@ -16,7 +16,7 @@ import PrivateRoute from './components/auth/PrivateRoute';
 import Navbar from './components/common/Navbar';
 
 // Axios Configuration
-axios.defaults.baseURL = 'https://motobikebn-2c6r.vercel.app/api/v1';
+axios.defaults.baseURL = 'https://motobikebn.onrender.com/api/v1';
 axios.interceptors.request.use(config => {
   const token = localStorage.getItem('token');
   if (token) {
