@@ -20,7 +20,7 @@ export const AuthProvider = ({ children }) => {
 
   const login = async (email, password) => {
     try {
-      const response = await axios.post('https://motobikebn.onrender.com/api/v1/login', {
+      const response = await axios.post('https://motobikebn-2c6r.vercel.app/api/v1/login', {
         email,
         password,
       });
@@ -38,7 +38,7 @@ export const AuthProvider = ({ children }) => {
 
   const register = async ({ username, email, password, phoneNumber }) => {
     try {
-      const response = await axios.post('https://motobikebn.onrender.com/api/v1/register', {
+      const response = await axios.post('https://motobikebn-2c6r.vercel.app/api/v1/register', {
         username,
         email,
         password,
